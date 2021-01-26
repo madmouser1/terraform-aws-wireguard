@@ -3,7 +3,7 @@ variable "ssh_key_id" {
 }
 
 variable "instance_type" {
-  default     = "t2.micro"
+  default     = "t3.micro"
   description = "The machine type to launch, some machines may offer higher throughput for higher use cases."
 }
 
